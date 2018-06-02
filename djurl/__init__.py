@@ -21,7 +21,7 @@ _default_patterns_ = {
     # filters
     'page': r'\d+',
     'filename': r'[\w,\s-]+\.[A-Za-z]{2,4}',
-    'uuid': r'([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}){1}',
+    'uuid': r'([a-zA-Z0-9]{22}|([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})){1}',
     'query': r'(\w|\.|\,|\/|\\|\=|[%!$`&*()+@_-])+',
 }
 
