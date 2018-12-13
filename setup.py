@@ -40,4 +40,4 @@ setup(
     ]
 )
 
-print(read('README.md'))
+#print(read('README.md'))
