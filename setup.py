@@ -8,7 +8,7 @@ def read(filename):
 
 setup(
     name="djurl",
-    version='0.2.0',
+    version=__import__('djurl').get_version(),
     author="Christopher Ventura",
     author_email="venturachrisdev@gmail.com",
     description="Simple yet helpful library for writing Django urls by an easy, short an intuitive way.",
